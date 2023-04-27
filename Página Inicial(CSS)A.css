@@ -1,0 +1,158 @@
+	
+			div {
+
+				color: white;
+				background: green;
+			}
+
+			#imagens{
+				color: black;
+				background: white;
+				padding: 2px;
+				margin: 10px;
+			}
+			#sobre{
+			color: white;
+			background: green;
+			padding: 2px;
+			margin: 3px;
+			}
+
+			hr{
+				color: green;
+			}
+
+			a{
+				
+				color: white;
+				text-decoration: none;
+			}
+
+			a:hover{
+				color: blue;
+			}
+
+			#pQ{
+				background: white;
+				text-align: center;
+				position: relative;
+			}
+
+
+			#pesq{
+				border-color: black;
+				width: 12px;
+			}
+			#caixa{
+				color: black;
+				background: white;
+				border-color: green;
+				height: 17px;
+			}
+
+			#menu{
+			
+				width: 12px;
+			}
+			#botaomenu{
+				color: skyblue;
+				background: green;
+				border-color: green;
+			}
+			#botaopesquisar{
+				background: green;
+				border-color: green;
+			}
+			#menus{
+				color: white;
+				background: #3b5f45;
+				padding: 0;
+				margin: 0;
+				width: 400px;
+				font-size: 20px;
+				position: relative;
+			}
+			#menus li:hover{
+				color: white;
+				background: green;
+
+			}
+			#Áudio{
+				display: none;
+			}
+			#Áudio li:hover{
+				color: #c1cbc4;
+				background: #0b501e;
+				
+			}
+			#menus:hover > #Áudio{
+				display: inline-block;;
+				padding: 0;
+				text-align: left;
+				
+				position: relative;
+			}
+			#Cordas{
+				display: none;
+
+			}
+			#Cordas li:hover{
+				color: #c1cbc4;
+				background: #0b501e;
+				
+			}
+			#menus:hover #Cordas{
+				display: inline-block;
+				padding: 0;
+				
+				text-align: left;
+				position: relative;
+			}
+			#Teclas{
+				display: none;
+
+			}
+			#Teclas li:hover{
+				color: #c1cbc4;
+				background: #0b501e;
+				
+			}
+			#menus:hover #Teclas{
+				display: inline-block;
+				padding: 0;
+			
+				text-align: left;
+				position: relative;
+			}
+			#Baterias_e_Percussão{
+				display: none;
+
+			}
+			#Baterias_e_Percussão li:hover{
+				color: #c1cbc4;
+				background: #0b501e;
+				
+			}
+			#menus:hover #Baterias_e_Percussão{
+				display: inline-block;
+				padding: 0;
+			
+				text-align: left;
+				position: relative;
+			}
+			#Sopros{
+				display: none;
+
+			}
+			#Sopros li:hover{
+				color: #c1cbc4;
+				background: #0b501e;
+				
+			}
+			#menus:hover #Sopros{
+				display: inline-block;
+				padding: 0;
+				
+				text-align: left;
+				position: relative;
+			}
