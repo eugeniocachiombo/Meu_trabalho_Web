@@ -1,49 +1,27 @@
 <title>Login</title>
 <script src="../../../assets/jquery/jquery.js"></script>
 
-	<div id="headerHTML"> <!---Carrager headerHTML--> </div>
-	<script> $("#headerHTML").load("../../../app/views/inc/headerHTML.html"); </script>
+<div id="headerHTML"><!---Carrager headerHTML--></div>
+<script> $("#headerHTML").load("../../../app/views/inc/headerHTML.html"); </script>
+
+<span id="tituloLoja"><!---Carrager icone tituloLoja--> </span>
+<script> $("#tituloLoja").load("../../../app/views/inc/tag/tituloLoja.html"); </script>
+
+<div class="col col-lg-1 text-start">
+	<span id="home"><!---Carrager icone home--> </span>
+	<script> $("#home").load("../../../app/views/inc/icones/home.html"); </script>
+</div>
 
 
-	
-	<div home>
-	<!-- Aqui começa as imagens -->
-		
-		<center><a href="Página Inicial.html">
-			<img align="left" width= "5%" src="Ícones/Home.png">
-		</a>
-		</center>
-	</div>
-		<!-- Termina Home -->
+<div class="d-flex justify-content-center align-items-center" style="min-height: 61vh">
+		<span id="estruturaLogin"> <!---Carrager icone estruturaLogin--> </span>
+		<script> $("#estruturaLogin").load("../../../app/views/login/estrutura.html"); </script>
+</div>
 
 
-		<!-- Login -->
-	
-		<form method="POST" action="logar.php">
-			
-			<label><h1>Login</h1></label>
-
-			<div id="Dadoscadastro">
-			<label ><strong>Email:</strong> <input size="40" placeholder="Digite o seu email" type="text" name="email" maxlength="50"  ></label>
-			</div>
-
-			<div id="Dadoscadastro">
-			<label><strong>Senha:</strong> <input size="40" placeholder="Digite a sua senha" type="password"  name="sa" maxlength="8" ></label>
-			</div>
-
-			<div id="Botão_Entrar">
-			<label><input type="submit"  id="Botão_Entrar2" value="Entrar" name="entrar" accept="aceitar"></button></label>
-			</div> <!--Em css está com os nomes Botão_Entrar & Botão_Entrar2
-		
-
-			<!-- Termina O Login -->
+<div id="footer"><!---Carrager footer--></div>
+<script> $("#footer").load("../../../app/views/inc/footer.html"); </script>
 
 
-			<label><center><strong>Ainda não tem uma conta?</strong></center></label> 
-
-			<div id="Ir_em_cadastro">
-			<a href="Cadastro.html"><input type="button" id="Ir_em_cadastro2" value="Cadastrar"></a>
-			</div>
-		</form>
-
-			
+<div id="footerHTML"><!---Carrager footerHTML--></div>
+<script> $("#footerHTML").load("../../../app/views/inc/footerHTML.html"); </script>
