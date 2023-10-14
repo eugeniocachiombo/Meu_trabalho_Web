@@ -3,8 +3,8 @@
         <!---Carrager icone tituloLoja--> </span>
     <script> $("#tituloLoja").load("../../../app/views/inc/tag/tituloLoja.html"); </script>
 
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="col col-lg-1 text-start">
+    <div class=" d-flex justify-content-center align-items-center">
+        <div class="col col-lg-1 text-center text-md-start">
             <span id="home"><!---Carrager icone home--> </span>
             <script> $("#home").load("../../../app/views/inc/icones/home.html"); </script>
         </div>
@@ -13,7 +13,7 @@
             <hr>
         </div>
 
-        <div class="col d-flex col-lg-1 text-end  ">
+        <div class="col d-flex col-lg-1 text-center ms-4 ">
             <span id="carrinho"><!---Carrager icone carrinho--> </span>
             <script> $("#carrinho").load("../../../app/views/inc/icones/carrinho.html"); </script>
 
@@ -23,3 +23,22 @@
     </div>
     <hr>
 </header>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background: green; color: white">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                        <div id="login"> <!---Carrager footer--> </di>
+                        <script>$("#login").load("../../../app/views/login/index.html");</script>
+                </div>
+                <div class="modal-footer" style="background: green; color: white">
+                        <hr>
+                </div>
+            </div>
+        </div>
+    </div>

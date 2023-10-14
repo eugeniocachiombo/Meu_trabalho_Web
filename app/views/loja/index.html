@@ -1,182 +1,170 @@
+<script src="../../../assets/jquery/jquery.js"></script>
+<div id="headHTML">
+	<!---Carrager headHTML-->
+</div>
+<div id="header">
+	<!---Carrager header-->
+</div>
+<meta http-equiv="Content-Type" charset="UTF-8">
+<title>Loja</title>
 
-		<style type="text/css">
-				
-			#cor_a{	
-			color: black;
-			font-size: 20px;
-			}
-			#cor_a:hover{
-			background: blue;	
-			color: white;
-			font-size: 20px;
-			}
+<style type="text/css">
+	#cor_a {
+		color: black;
+		font-size: 20px;
+	}
 
-			#letrasProdutos{
-				color: white;
-				font-weight: bold;
-				font-size: 20px;
-				background: green;
-			}
-			#letrasProdutospreço{
-				color: white;
-				font-weight: bold;
-				font-size: 15px;
-				background: green;
-			}
-		</style>
+	#cor_a:hover {
+		background: blue;
+		color: white;
+		font-size: 20px;
+	}
 
+	#letrasProdutos {
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		background: green;
+	}
 
-		
-		<title>Loja</title>
+	#letrasProdutospreço {
+		color: white;
+		font-weight: bold;
+		font-size: 15px;
+		background: green;
+	}
+</style>
 
-
-
-	<body bgcolor="white">
-	
-	<!-- Aqui começa as imagens -->
-		<a href="/Meu trabalho de web - Copia/Página Inicial.html">
-			<img align="left" width= "5%" src="/Meu trabalho de web - Copia/Ícones/Home.png">
-
-			<a href="/Meu trabalho de web - Copia/Login.html"><img  align="right" width= "3%" src="/Meu trabalho de web - Copia/Ícones/Sessão1.png"></a>
-		</a>
-
-	
-		<!-- Termina Home -->
-
+<main >
+	<div class="container">
 
 		<!-- Loja -->
 		<br>
-		<label>
+		<div>
 			<div>
-			<h2>Bem-vindo a nossa loja, temos para si:</h2>
+				<h2>Bem-vindo a nossa loja, temos para si:</h2>
+			</div>
+			<ul type="circle">
+				<hr>
+				<li>
+					<h1>Áudio</h1>
+				</li>
 
-		</div>
-				<ul type="circle">
-				<hr>
-				<li><h1>Áudio</h1></li>
-				
-					<ul  type="none">
-						<hr>
-						<li>
-<a id="cor_a" href="#Acessórios">
-						Acessórios </a></li>
-						<li><a id="cor_a" href="">Amplificador de áudio</a></li>
-						<li><a id="cor_a" href="">Microfones</a></li>
-						<li><a id="cor_a" href="">Mesas de som</a></li>
-						<li><a id="cor_a" href="">Fones de ouvido</a></li>
-						<li><a id="cor_a" href="">Equalizador</a></li>
-						<li><a id="cor_a" href="">Processador</a></li>
-					</ul>
-
-				<hr>
-				
-				<li><h1>Cordas</h1></li>
-					<ul  type="none">
-						<hr>
-						<li><a id="cor_a" href="">Acessórios de cordas</a></li>
-						<li><a id="cor_a" href="">Violão</a></li>
-						<li><a id="cor_a" href="">Guitarra</a></li>
-						<li><a id="cor_a" href="">Contrabaixo</a></li>
-					</ul>
-				<hr>
-				<li><h1>Teclas</h1></li>
-					<ul  type="none">
-						<hr>
-						<li><a id="cor_a" href="">Acessórios de teclas</a></li>
-						<li><a id="cor_a" href="">Piano Digital</a></li>
-						<li><a id="cor_a" href="">Piano Acústico</a></li>
-						<li><a id="cor_a" href="">Controlador</a></li>
-						<li><a id="cor_a" href="">Orgão Electrónicos</a></li>
-					</ul>
-				<hr>
-				<li><h1>Baterias e Percussão</h1></li>
-					<ul type="none">
-						<hr>
-						<li><a id="cor_a" href="">Acessórios de Bat/Per</a></li>
-						<li><a id="cor_a" href="">Baterias</a></li>
-						<li><a id="cor_a" href="">Percussão</a></li>
-						<li><a id="cor_a" href="">Pratos</a></li>
-						<li><a id="cor_a" href="">Peles</a></li>
-					</ul>
-				<hr>
-				<li><h1>Sopros</h1></li>
-						<ul  type="none">
-						<hr>
-						<li><a id="cor_a" href="">Acessórios de sopros</a></li>
-						<li><a id="cor_a" href="">Fláutas</a></li>
-						<li><a id="cor_a" href="">Saxofones</a></li>
-						<li><a id="cor_a" href="">Trombone</a></li>
-						<li><a id="cor_a" href="">Trompete</a></li>
-						<li><a id="cor_a" href="">Tuba</a></li>
-						<li><a id="cor_a" href="">Clarineta</a></li>
-					</ul>
-				<hr>
+				<ul type="none">
+					<hr>
+					<li><a id="cor_a" href="#Acessórios">Acessórios </a></li>
+					<li><a id="cor_a" href="">Amplificador de áudio</a></li>
+					<li><a id="cor_a" href="">Microfones</a></li>
+					<li><a id="cor_a" href="">Mesas de som</a></li>
+					<li><a id="cor_a" href="">Fones de ouvido</a></li>
+					<li><a id="cor_a" href="">Equalizador</a></li>
+					<li><a id="cor_a" href="">Processador</a></li>
 				</ul>
 
-		</label>
+				<hr>
 
-    <!-------ESPAÇO PARA ACESSÓRIOS------>
-			<nav id="Acessórios"> 
-			<label><h2>Acessórios de Áudio</h2></label>
-	<nav >
-	<img border="1" width="30%" src="Audio acessorios/Cabo XLR.jpg">
+				<li>
+					<h1>Cordas</h1>
+				</li>
+				<ul type="none">
+					<hr>
+					<li><a id="cor_a" href="">Acessórios de cordas</a></li>
+					<li><a id="cor_a" href="">Violão</a></li>
+					<li><a id="cor_a" href="">Guitarra</a></li>
+					<li><a id="cor_a" href="">Contrabaixo</a></li>
+				</ul>
+				<hr>
+				<li>
+					<h1>Teclas</h1>
+				</li>
+				<ul type="none">
+					<hr>
+					<li><a id="cor_a" href="">Acessórios de teclas</a></li>
+					<li><a id="cor_a" href="">Piano Digital</a></li>
+					<li><a id="cor_a" href="">Piano Acústico</a></li>
+					<li><a id="cor_a" href="">Controlador</a></li>
+					<li><a id="cor_a" href="">Orgão Electrónicos</a></li>
+				</ul>
+				<hr>
+				<li>
+					<h1>Baterias e Percussão</h1>
+				</li>
+				<ul type="none">
+					<hr>
+					<li><a id="cor_a" href="">Acessórios de Bat/Per</a></li>
+					<li><a id="cor_a" href="">Baterias</a></li>
+					<li><a id="cor_a" href="">Percussão</a></li>
+					<li><a id="cor_a" href="">Pratos</a></li>
+					<li><a id="cor_a" href="">Peles</a></li>
+				</ul>
+				<hr>
+				<li>
+					<h1>Sopros</h1>
+				</li>
+				<ul type="none">
+					<hr>
+					<li><a id="cor_a" href="">Acessórios de sopros</a></li>
+					<li><a id="cor_a" href="">Fláutas</a></li>
+					<li><a id="cor_a" href="">Saxofones</a></li>
+					<li><a id="cor_a" href="">Trombone</a></li>
+					<li><a id="cor_a" href="">Trompete</a></li>
+					<li><a id="cor_a" href="">Tuba</a></li>
+					<li><a id="cor_a" href="">Clarineta</a></li>
+				</ul>
+				<hr>
+			</ul>
 
-	
-	<p align="left">
-		<input size="9" id="letrasProdutos" readonly name="" value="Cabo XLR">
-		<br>
-	
-	Preço <strong>3.000,00</strong> (Kz)
-	<br>
-	Desconto até <input size="7" id="letrasProdutospreço" readonly name="" value="2.500,00">(Kz)
-	</nav> <hr>
-	</nav>
-<!--------------------------------------------->
-<nav >
-	<form>
-	<img border="1" width="30%" src="Audio acessorios/CABO_ALIMENTACAO.png">
+		</div>
 
-	
-	<p align="left"><input size="17" id="letrasProdutos" readonly name="" value="Cabo de alimentação">
-		<br>
-	
-	Preço <strong>5.000,00</strong> (Kz)
-	<br>
-	Desconto até <input size="7" id="letrasProdutospreço" readonly name="" value="4.970,00">(Kz)
-	</nav> <hr>
-	</nav>
-<!--------------------------------------------->
-<nav >
-	<img border="1" width="30%" src="Audio acessorios/Mesa de piano.jpg">
+		<div id="Acessórios">
+			<label>
+				<h2>Acessórios de Áudio</h2>
+			</label>
+			<div>
+				<img border="1" width="30%" src="../../../assets/img/loja_acessorios/Cabo XLR.jpg">
 
-	
-	<p align="left"><input size="14" id="letrasProdutos" readonly name="" value="Mesa de piano">
-		<br>
-	
-	Preço <strong>3.5000,00</strong> (Kz)
-	<br>
-	Desconto até <input size="8" id="letrasProdutospreço" readonly name="" value="3.4860,00">(Kz)
-	</nav> <hr>
+				<p align="left">
+					<input size="9" id="letrasProdutos" readonly name="" value="Cabo XLR">
+					<br>
 
-
-	</form>
-	</nav><!--NAV FInal-->
-<!--------------------------------------------->
-		<!-----FECHAR ESPAÇO PARA ACESSÓRIOS---->
-
-	<div id="sobre">
-	<dl>
-			<dt><strong>Atendimento</strong></dt>
+					Preço <strong>3.000,00</strong> (Kz)
+					<br>
+					Desconto até <input size="7" id="letrasProdutospreço" readonly name="" value="2.500,00">(Kz)
+			</div>
 			<hr>
-		
-				<a href="/Meu trabalho de web - Copia/Atendimento.html"><dd>Contacte-nos (+244-932-035-294) ou (lojacachiombo@gmail.com)</dd>
-				<dd>Garantia dos produtos</dd>
-				<dd>Troca ou devolução</dd>
-				<dd>Cancelamento do pedido</dd>
-				<dd>Política de privacidade</dd>
-				</a>
-	</dl>
-	</div>
 
-	</body>
-	</html>
+			<div>
+				<img border="1" width="30%" src="../../../assets/img/loja_acessorios/CABO_ALIMENTACAO.png">
+
+				<p align="left"><input size="17" id="letrasProdutos" readonly name="" value="Cabo de alimentação">
+					<br>
+
+					Preço <strong>5.000,00</strong> (Kz)
+					<br>
+					Desconto até <input size="7" id="letrasProdutospreço" readonly name="" value="4.970,00">(Kz)
+			</div>
+			<hr>
+
+			<div>
+				<img border="1" width="30%" src="../../../assets/img/loja_acessorios/Mesa de piano.jpg">
+
+				<p align="left"><input size="14" id="letrasProdutos" readonly name="" value="Mesa de piano">
+					<br>
+
+					Preço <strong>3.5000,00</strong> (Kz)
+					<br>
+					Desconto até <input size="8" id="letrasProdutospreço" readonly name="" value="3.4860,00">(Kz)
+				</p>
+			</div>
+			<hr>
+		</div>
+	</div>
+</main>
+
+<div id="footer">
+	<!---Carrager footer-->
+</div>
+<div id="footHTML">
+	<!---Carrager footHTML-->
+</div>
+<script src="../../../assets/js/heads_foots.js"></script>
