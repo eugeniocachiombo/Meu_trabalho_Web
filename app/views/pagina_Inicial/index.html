@@ -1,10 +1,12 @@
 <script src="../../../assets/jquery/jquery.js"></script>
 <div id="headHTML"> <!---Carrager headHTML--> </div>
 <div id="header"> <!---Carrager header--> </div>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <title>Página inicial</title>
 
+
 <main>
-		<div id="container"> 
+	<div id="container"> 
 				<div class="d-flex justify-content-center " style="">
 						<button id="botaomenu" style="background: green; color: white">
 							<i class="fas fa-bars text-white p-1" style="font-size: 30px;"></i>
@@ -26,7 +28,7 @@
 					<hr>
 					
 					<div class="container ">
-						<img border="1" width="30%" src="../../../Marketing inicial/Coluna.jpg">
+						<img border="1" width="30%" src="../../../assets/img/coluna.jpg">
 					
 						<p align="left"><strong>Caixa Acústica JBL MRX 615</strong>
 							<br>
@@ -38,7 +40,7 @@
 						<hr>
 					
 					
-						<img border="1" width="30%" src="../../../Marketing inicial/Fláuta.jpg">
+						<img border="1" width="30%" src="../../../assets/img/flauta.jpg">
 					
 						<p align="left"><strong>Fláuta Yamaha Soprano barroca Ecologica YRS-402B</strong>
 							<br>
@@ -50,7 +52,7 @@
 						<hr>
 					
 					
-						<img border="1" width="30%" src="../../../Marketing inicial/Micro.jpg">
+						<img border="1" width="30%" src="../../../assets/img/micro.jpg">
 					
 						<p align="left"><strong>Kit com 3 Microfones Dylan SMD 300 3P com cabos de 3 Metros</strong>
 							<br>
@@ -61,7 +63,7 @@
 						</p>
 						<hr>
 					
-						<img border="1" width="30%" src="../../../Marketing inicial/Piano.jpg">
+						<img border="1" width="30%" src="../../../assets/img/piano.jpg">
 					
 						<p align="left"><strong>Piano Digital Casio CDP-S110 Bk</strong>
 							<br>
@@ -71,10 +73,30 @@
 							Desconto até <strong>288.440,00</strong> (Kz)
 						</p>
 						<hr>
-					</div>	
-		</div>
+				</div>	
+	</div>
 </main>
 	
 <div id="footer"> <!---Carrager footer--> </div>
 <div id="footHTML"> <!---Carrager footHTML--> </div>
 <script src="../../../assets/js/heads_foots.js"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header" style="background: green; color: white">
+				<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+					<div id="login"> <!---Carrager footer--> </di>
+					<script>$("#login").load("../../../app/views/login/index.html");</script>
+			</div>
+			<div class="modal-footer" style="background: green; color: white">
+					<hr>
+			</div>
+		</div>
+	</div>
+</div>

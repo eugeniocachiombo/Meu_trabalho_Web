@@ -10,10 +10,10 @@ if($email == "eugeniocachiombo" && $senha == "123"){
 	?>
 		<body>
 			<script>
-				Swal.fire("Erro de autenticação", "Verifique seu emaile a senha", "error");
+				Swal.fire("Erro de autenticação", "Verifique seu email e a senha", "error");
 				setTimeout(() => {
 					window.location = "../views/login";
-				}, 3000);
+				}, 2000);
 			</script>
 		</body>
 	<?php
